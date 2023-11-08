@@ -1,0 +1,5 @@
+{
+    "board": "arduino:avr:uno",
+    "port": "/dev/tty.wlan-debug",
+    "sketch": "src/sketch_may26a_warchacks_test.ino"
+}
