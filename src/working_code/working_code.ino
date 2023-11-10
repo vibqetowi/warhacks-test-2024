@@ -148,9 +148,9 @@ if (robot.challengeNumber == 1){
     // }
     else {
       robot.stop();
-      wait(4000);
+      delay(4000);
       robot.forward();
-      wait(500)
+      delay(500)
     }
     continue;
   } 
