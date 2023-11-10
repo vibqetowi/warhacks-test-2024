@@ -1,6 +1,8 @@
 #include <Arduino.h>
 // // #include <NewPing.h>
 
+// use this function to verify that your arduino works
+// the orange LED should flash when you upload
 
 // void setup() {
 //   Serial.begin(9600);
