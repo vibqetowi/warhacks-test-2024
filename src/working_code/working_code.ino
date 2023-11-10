@@ -106,7 +106,7 @@ void setup() {
     pinMode(robot.motorRightPinBack, OUTPUT);
 }
 
-const int IRtreshold = 500;
+const int IRtreshold = 200;
 
 void loop() {
     // these debugging statements may be useful to you
@@ -125,7 +125,7 @@ void loop() {
         if (IRleft < IRtreshold && IRright < IRtreshold) {
             robot.forward();
         }
-        else if (IRleft > IRtreshold && IRright < IRright) {
+        else if (IRleft > IRtreshold && IRright < IRtreshold) {
             robot.turn_left();
         }
         else if (IRleft < IRtreshold && IRright > IRtreshold) {
