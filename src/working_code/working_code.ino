@@ -77,7 +77,7 @@ class Robot {
       analogWrite(motorLeftPinBack, 0);
       analogWrite(motorRightPinForward, speed);
       analogWrite(motorRightPinBack, 0);
-      Serial.print("left\n");
+      Serial.print("left\n");   
 
     }
 
