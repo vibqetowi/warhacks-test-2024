@@ -117,7 +117,7 @@ class Robot {
     pinMode(robot.motorRightPinBack, OUTPUT);
 }
 
-IRtreshold = 500
+const int IRtreshold = 500
  
 void loop() {
   // these debugging statements may be useful to you
