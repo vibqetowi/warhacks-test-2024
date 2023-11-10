@@ -117,7 +117,7 @@ class Robot {
     pinMode(robot.motorRightPinBack, OUTPUT);
 }
 
-const int IRtreshold = 500
+const int IRtreshold = 500;
  
 void loop() {
   // these debugging statements may be useful to you
@@ -136,13 +136,13 @@ if (robot.challengeNumber == 1){
     if (IRleft < IRtreshold && IRright < IRtreshold ){
       robot.forward();
     }
-    elif (IRleft>IRtreshold && IRright<IRright){
+    else if (IRleft>IRtreshold && IRright<IRright){
       robot.turn_left();
     }
-    elif (IRleft<IRtreshold&&IRright>IRtreshold){
+    else if (IRleft<IRtreshold&&IRright>IRtreshold){
       robot.turn_right();
     }
-    // elif (condition3){
+    // else if (condition3){
     //   robot.reverse();
     // }
     else {
